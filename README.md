@@ -1,10 +1,10 @@
 Assignment 2 – Testing AI with Unittest
 Introduction
 
-We tested the ask_capital function with Python unittest and Ollama, using the Gemma 4 model. The goal was to check whether the AI gives correct and consistent answers.
+We tested the ask_capital function with Python unittest and Ollama, using the Gemma4 model. The goal was to check whether the AI gives correct and consistent answers
 
 Tests
-Unknown model: returns “Failure.” if the model doesn’t exist.
+Unknown model: returns (Failure) if the model doesn’t exist.
 Sweden: asks three times; at least two answers must have Stockholm.
 Australia: asks three times; at least two answers must have Canberra.
 Judge accepts: the judge should accept Stockholm as the capital of Sweden.
@@ -23,4 +23,4 @@ The model gave the right capitals in every run. That was consistent, but it does
 
 The judge also worked as expected. Since the judge is an AI aswell, it can make mistakes, so when a test fails it’s hard to tell whether the problem is the model or the judge. We used Gemma 4 for both, so they may share the same weaknesses.
 
-We learned that AI answers aren’t fully predictable. That makes testing AI different from testing normal software, and it means you shouldn’t rely on just one test or one Ai judge.
+We learned that AI answers aren’t fully predictable, so one test or one judge isn’t enough.
