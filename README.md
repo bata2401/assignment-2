@@ -1,4 +1,4 @@
-`Assignment 2 – Testing AI with Unittest`
+`Assignment 2. Trustworthy AI engineering (M2.1)`
 
 Introduction
 
