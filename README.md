@@ -1,4 +1,4 @@
-Assignment 2 – Testing AI with Unittest
+Assignment 2. Trustworthy AI engineering (M2.1)
 Introduction
 
 We tested the ask_capital function with Python unittest and Ollama, using the Gemma4 model. The goal was to check whether the AI gives correct and consistent answers
