@@ -13,8 +13,10 @@ Test results
 
 We ran the tests five times, and all five tests passed every time.
 
-Run	    Passed	Failed
-1–5	     5	       0
+| Runs | Passed | Failed |
+|:----:|:------:|:------:|
+| 1–5  | **5**  | **0**  |
+
 Reflections
 
 The model gave the right capitals in every run. That was consistent, but it doesn’t prove it will always work this way.
